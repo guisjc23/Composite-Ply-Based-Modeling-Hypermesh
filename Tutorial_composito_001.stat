@@ -1,0 +1,501 @@
+ Program execution started at Sun May 17 14:02:40 2026    
+	process id = 7052
+ MKL : Intel(R) oneAPI Math Kernel Library Version 2022.2-Product Build 20220804 for Intel(R) 64 architecture applications
+ Command line arguments:
+ Tutorial_composito.fem
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+
+TIME SPENT IN MODULE :    READ;  CPU=       0.03;  WALL=      0.16
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.00;  WALL=      0.01
+
+
+START RUNNING MODULE :  PREPRC ...
+
+TIME SPENT IN MODULE :  PREPRC;  CPU=       0.00;  WALL=      1.25
+
+
+START RUNNING MODULE :  PREPRO ...
+
+   Start running section :  PRDMGR ...
+
+   Start running section :  PRPFT1 ...
+
+   Time spent in section :  PRPFT1;  CPU=       0.00;  WALL=      0.00
+
+
+   Time spent in section :  PRDMGR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRROTD ...
+
+   Time spent in section :  PRROTD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP2DR ...
+
+   Time spent in section :  PRP2DR;  CPU=       0.09;  WALL=      0.03
+
+
+   Start running section :  PRPACO ...
+
+   Time spent in section :  PRPACO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PRCYSH3D ...
+
+   Time spent in section :PRCYSH3D;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDMIG ...
+
+   Time spent in section :  PRDMIG;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDDM ...
+
+   Time spent in section :  PRPDDM;  CPU=       0.06;  WALL=      0.01
+
+
+   Start running section :  PRPROF ...
+
+   Time spent in section :  PRPROF;  CPU=       0.06;  WALL=      0.02
+
+
+   Start running section :  PRPFRF ...
+
+   Time spent in section :  PRPFRF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP3DR ...
+
+   Time spent in section :  PRP3DR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDPPD ...
+
+   Time spent in section :  PRDPPD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PREPOUT0 ...
+
+   Time spent in section :PREPOUT0;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : PREPOUT ...
+
+   Time spent in section : PREPOUT;  CPU=       0.02;  WALL=      0.00
+
+
+   Start running section :PROUTSET ...
+
+   Time spent in section :PROUTSET;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : ACPVPOP ...
+
+   Time spent in section : ACPVPOP;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTDYN ...
+
+   Time spent in section :PROUTDYN;  CPU=       0.03;  WALL=      0.00
+
+
+   Start running section :PROUTDST ...
+
+   Time spent in section :PROUTDST;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTSTP ...
+
+   Time spent in section :PROUTSTP;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTPLY ...
+
+   Time spent in section :PROUTPLY;  CPU=       0.09;  WALL=      0.02
+
+
+   Start running section :PROUTEND ...
+
+   Time spent in section :PROUTEND;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRMISD ...
+
+   Time spent in section :  PRMISD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP4DR ...
+
+   Time spent in section :  PRP4DR;  CPU=       0.39;  WALL=      0.24
+
+
+   Start running section :  PROPT1 ...
+
+   Time spent in section :  PROPT1;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRMIS2 ...
+
+   Time spent in section :  PRMIS2;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  PRPSL4 ...
+
+   Preprocessing subcase          1
+
+      MUMPS solver is activated for this subcase.
+      MUMPS is running with   1 processes    1 threads per process out-of-core mode.
+      matrix ordering scheme   5   is used.
+      operations during elimination (estim)                              : 3.56217E+09
+      total memory in MBYTES for in-core factorization (estim)               :     164
+      total memory in MBYTES for out-of-core factorization (estim)           :      51
+
+   Time spent in section :  PRPSL4;  CPU=       0.17;  WALL=      0.38
+
+
+   Start running section :  PRPMI1 ...
+
+   Time spent in section :  PRPMI1;  CPU=       0.02;  WALL=      0.01
+
+
+   Start running section :  PRPFT3 ...
+
+   Time spent in section :  PRPFT3;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPEST ...
+
+   Time spent in section :  PRPEST;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  PRPMI2 ...
+
+   Time spent in section :  PRPMI2;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMMO ...
+
+   Time spent in section :  PRPMMO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMI3 ...
+
+   Time spent in section :  PRPMI3;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDSK ...
+
+   Time spent in section :  PRPDSK;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPSUM ...
+
+   Time spent in section :  PRPSUM;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  PRPMI4 ...
+
+   Time spent in section :  PRPMI4;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=       0.94;  WALL=      0.77
+
+
+ITERATION   0 (times since start:      2.22     -2.22)
+
+START RUNNING MODULE : CHECKEL ...
+
+TIME SPENT IN MODULE : CHECKEL;  CPU=       0.00;  WALL=      0.03
+
+
+START RUNNING MODULE :  SOLVER ...
+
+   Start running section :  PRASMB ...
+
+   Time spent in section :  PRASMB;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  SPASMB ...
+
+   Time spent in section :  SPASMB;  CPU=       0.16;  WALL=      0.27
+
+
+   Solving subcase          1
+
+   Solving subcase          1
+
+   Start running section :SPCDLCAL ...
+
+   Time spent in section :SPCDLCAL;  CPU=       0.00;  WALL=      0.00
+
+
+   Solving subcase          1
+
+   Start running section :  AUSPC2 ...
+
+   Time spent in section :  AUSPC2;  CPU=       0.05;  WALL=      0.31
+
+
+      MUMPS solver is activated for this subcase.
+
+   Start running section :  INPTVM ...
+
+   Time spent in section :  INPTVM;  CPU=       0.02;  WALL=      0.03
+
+
+   Start running section :  FCTMTX ...
+      MUMPS is running with   1 processes    1 threads per process in-core mode. 
+      matrix ordering scheme   5   is used.
+      operations during elimination (estim)                              : 3.56217E+09
+      total memory in MBYTES for in-core factorization (estim)               :     164
+      total memory in MBYTES for out-of-core factorization (estim)           :      51
+
+   Time spent in section :  FCTMTX;  CPU=       0.41;  WALL=      0.77
+
+
+   Start running section :  SOLRHS ...
+
+   Time spent in section :  SOLRHS;  CPU=       0.00;  WALL=      0.04
+
+
+   Start running section :  STRENR ...
+
+   Time spent in section :  STRENR;  CPU=       0.00;  WALL=      0.03
+
+
+   Start running section :  KINENR ...
+
+   Time spent in section :  KINENR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  CMPRTF ...
+
+   Time spent in section :  CMPRTF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  OBJFUN ...
+
+   Time spent in section :  OBJFUN;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE :  SOLVER;  CPU=       0.62;  WALL=      1.50
+
+
+START RUNNING MODULE :  RSDFRC ...
+
+Request for memory resize from        800 to       1004 MB
+Resize ok with new memory.
+
+Request for memory resize from       1004 to        800 MB
+Resize ok.
+
+TIME SPENT IN MODULE :  RSDFRC;  CPU=       0.14;  WALL=      0.34
+
+
+START RUNNING MODULE :  STRESS ...
+
+Request for memory resize from        800 to       1004 MB
+Resize ok with new memory.
+
+Request for memory resize from       1004 to        800 MB
+Resize ok.
+
+TIME SPENT IN MODULE :  STRESS;  CPU=       0.25;  WALL=      0.51
+
+
+START RUNNING MODULE : ACPOSTP ...
+
+   Start running section : PMLMICP ...
+
+   Time spent in section : PMLMICP;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :   CMMAP ...
+
+   Time spent in section :   CMMAP;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :   CMCSV ...
+
+   Time spent in section :   CMCSV;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE : ACPOSTP;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE : RANDDRV ...
+
+TIME SPENT IN MODULE : RANDDRV;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :  RESULT ...
+
+TIME SPENT IN MODULE :  RESULT;  CPU=       0.02;  WALL=      0.00
+
+
+START RUNNING MODULE :  ERPDRV ...
+
+TIME SPENT IN MODULE :  ERPDRV;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :CONVERGE ...
+
+TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :   PRINT ...
+
+   Start running section :  PRTNEW ...
+
+   Time spent in section :  PRTNEW;  CPU=       0.00;  WALL=      0.02
+
+
+TIME SPENT IN MODULE :   PRINT;  CPU=       0.00;  WALL=      0.03
+
+
+START RUNNING MODULE : RESULTS ...
+
+Request for memory resize from        800 to       1004 MB
+Resize ok with new memory.
+
+   Start running section : RESPREP ...
+
+   Time spent in section : RESPREP;  CPU=       0.08;  WALL=      0.25
+
+
+   Start running section : RESMEMO ...
+
+   Time spent in section : RESMEMO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :RESREADY ...
+
+   Time spent in section :RESREADY;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :     H3D ...
+
+   Time spent in section :     H3D;  CPU=       0.08;  WALL=      0.18
+
+
+   Start running section :      OS ...
+
+   Time spent in section :      OS;  CPU=       0.00;  WALL=      0.02
+
+
+   Start running section :    MISC ...
+
+   Time spent in section :    MISC;  CPU=       0.00;  WALL=      0.00
+
+  
+ ANALYSIS COMPLETED.
+  
+
+Request for memory resize from       1004 to        800 MB
+Resize ok.
+
+TIME SPENT IN MODULE : RESULTS;  CPU=       0.16;  WALL=      0.78
+
+
+START RUNNING MODULE :FINISHUP ...
+
+TIME SPENT IN MODULE :FINISHUP;  CPU=       0.00;  WALL=      0.01
+
+ Detailed disk usage: 
+	High usage overall   :  101.4 MiB,
+	Solver scratch       :    0.0 MiB,
+	Internal database    :  101.4 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :    0.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       0.03;  WALL=      0.16
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.00;  WALL=      0.01
+TOTAL TIME SPENT IN MODULE :PREPRC  ;  CPU=       0.00;  WALL=      1.25
+   Total time spent in section :PRPFT1  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMGR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRROTD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP2DR  ;  CPU=       0.09;  WALL=      0.03
+   Total time spent in section :PRPACO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRCYSH3D;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMIG  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDDM  ;  CPU=       0.06;  WALL=      0.01
+   Total time spent in section :PRPROF  ;  CPU=       0.06;  WALL=      0.02
+   Total time spent in section :PRPFRF  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP3DR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDPPD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PREPOUT0;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PREPOUT ;  CPU=       0.02;  WALL=      0.00
+   Total time spent in section :PROUTSET;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :ACPVPOP ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTDYN;  CPU=       0.03;  WALL=      0.00
+   Total time spent in section :PROUTDST;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTSTP;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTPLY;  CPU=       0.09;  WALL=      0.02
+   Total time spent in section :PROUTEND;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRMISD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP4DR  ;  CPU=       0.39;  WALL=      0.24
+   Total time spent in section :PROPT1  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRMIS2  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PRPSL4  ;  CPU=       0.17;  WALL=      0.38
+   Total time spent in section :PRPMI1  ;  CPU=       0.02;  WALL=      0.01
+   Total time spent in section :PRPFT3  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPEST  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PRPMI2  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMMO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMI3  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDSK  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSUM  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PRPMI4  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=       0.94;  WALL=      0.77
+TOTAL TIME SPENT IN MODULE :CHECKEL ;  CPU=       0.00;  WALL=      0.03
+   Total time spent in section :PRASMB  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :SPASMB  ;  CPU=       0.16;  WALL=      0.27
+   Total time spent in section :SPCDLCAL;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :AUSPC2  ;  CPU=       0.05;  WALL=      0.31
+   Total time spent in section :INPTVM  ;  CPU=       0.02;  WALL=      0.03
+   Total time spent in section :FCTMTX  ;  CPU=       0.41;  WALL=      0.77
+   Total time spent in section :SOLRHS  ;  CPU=       0.00;  WALL=      0.04
+   Total time spent in section :STRENR  ;  CPU=       0.00;  WALL=      0.03
+   Total time spent in section :KINENR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :CMPRTF  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :OBJFUN  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :SOLVER  ;  CPU=       0.62;  WALL=      1.50
+TOTAL TIME SPENT IN MODULE :RSDFRC  ;  CPU=       0.14;  WALL=      0.34
+TOTAL TIME SPENT IN MODULE :STRESS  ;  CPU=       0.25;  WALL=      0.51
+   Total time spent in section :PMLMICP ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :CMMAP   ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :CMCSV   ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :ACPOSTP ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :RANDDRV ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :RESULT  ;  CPU=       0.02;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :ERPDRV  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRTNEW  ;  CPU=       0.00;  WALL=      0.02
+TOTAL TIME SPENT IN MODULE :PRINT   ;  CPU=       0.00;  WALL=      0.03
+   Total time spent in section :RESPREP ;  CPU=       0.08;  WALL=      0.25
+   Total time spent in section :RESMEMO ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :RESREADY;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :H3D     ;  CPU=       0.08;  WALL=      0.18
+   Total time spent in section :OS      ;  CPU=       0.00;  WALL=      0.02
+   Total time spent in section :MISC    ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :RESULTS ;  CPU=       0.16;  WALL=      0.78
+TOTAL TIME SPENT IN MODULE :FINISHUP;  CPU=       0.00;  WALL=      0.01
+
+CUMULATIVE RUN TIME:     CPU=        2.16;     WALL=        5.39
+

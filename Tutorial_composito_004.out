@@ -1,0 +1,203 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2022.3                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **   OptiStruct includes an enhanced proprietary version of NASTRAN   **
+ **                                                                    **
+ **                                                                    **
+ **                Windows 10  (Build 9200)  GUILHERME                 **
+ **          4 CPU:  Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz          **
+ **                    8901 MB RAM,  17318 MB swap                     **
+ **                                                                    **
+ ** Build: 1161285uwn33223_Ce64RB68UH14M:214991-000  46004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2023                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/PROGRA~1/Altair/2022.3/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed unless there is
+ a subsequent MSGLMT definition to limit error or warning messages.
+ You can also suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : Tutorial_composito.fem
+  Output files prefix          : Tutorial_composito
+  Model read from files:
+ (*1)	    Tutorial_composito.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     10259
+  Total # of Elements                  :     10000
+  Total # of Local Coordinate Systems  :         1
+  Total # of Degrees of Freedom        :     61200
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   1655964
+
+ 
+  Element Type Information
+  ------------------------
+
+   CQUAD4   Elements   :    10000     
+
+  Load and Boundary Information
+  -----------------------------
+
+   LOAD and TEMP Sets:         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PCOMP(G)(P) Cards :         1
+   MAT9ORT Cards     :         1
+   MATF   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            1          2
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/guilh/Documents/06-Elementos_Finitos/06-Tutorial_composito/
+   Scratch file directory          : C:/Users/guilh/Documents/06-Elementos_Finitos/06-Tutorial_composito/
+                                     Free space:    79.311 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Static Memory (RAM) Allocated in Preprocessor           :     800 MB
+ MUMPS Solver will Run In-Core with Estimated Memory     :     203 MB
+ Estimated Total Memory (RAM)                            :    1003 MB
+ 
+ Estimated Memory (RAM) for Out-of-Core Solution         :     242 MB
+ Estimated Memory (RAM) for In-Core Solution             :     355 MB
+ (Note: The Minimum Memory Requirement is limited by Stress Module.)         
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :      19 MB
+ Estimated Scratch Disk Space for In-Core Solution       :      36 MB
+ Estimated Scratch Disk Space for Out-of-Core Solution   :     135 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 36 MB)
+(Running in-core solution)
+
+Volume                              =  3.60000E+05   Mass     =  0.00000E+00
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  4.171654E+01 -1.860186E-10
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      1003 MB
+   INCLUDING MEMORY FOR MUMPS                              203 MB
+   IN ADDITION     46 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                   150 MB
+   INCLUDING DISK SPACE FOR MUMPS                            0 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Sun May 17 14:21:18 2026    
+ EXECUTION COMPLETED                       Sun May 17 14:21:25 2026    
+ ELAPSED TIME                                         00:00:07
+ CPU TIME                                             00:00:03
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For OptiStruct Community Forum, go to the URL:
+ http://www.altair.com/optistruct-community
+ For Altair Community Knowledge Base, go to the URL:
+ http://www.altair.com/knowledge
